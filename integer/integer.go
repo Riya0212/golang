@@ -14,4 +14,5 @@ func main() {
 	fmt.Println("b+c= ", b*c)
 	fmt.Println("b+c= ", b/c)
 	fmt.Println("b+c= ", b%c)
+	fmt.Printf("a+b= %v,%T ", a+int(b), a+int(b))
 }
